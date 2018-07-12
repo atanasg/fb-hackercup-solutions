@@ -1,2 +1,2 @@
 # fb-hackercup-solutions
-Own solutions for the yearly Facebook Hacker Cup competition
+Own solutions for the annual Facebook Hacker Cup competition
