@@ -11,6 +11,10 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+/**
+ * @see https://www.facebook.com/hackercup/problem/1632703893518337/
+ * @author atanasg
+ */
 public class TouristSolver {
 
 	private static final Path RES_FOLDER = Paths.get("res", "round0", "problem1", "tourist");
