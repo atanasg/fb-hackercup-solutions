@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /**
- * @see https://www.facebook.com/hackercup/problem/1632703893518337/
+ * @see https://www.facebook.com/codingcompetitions/hacker-cup/2018/qualification-round/problems/A
  * @author atanasg
  */
 public class TouristSolver {
