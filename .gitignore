@@ -1,6 +1,10 @@
 # Eclipse
 bin/
 
+# IntelliJ
+*.iml
+.idea/
+
 # Compiled class file
 *.class
 
