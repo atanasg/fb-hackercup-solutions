@@ -1,5 +1,5 @@
-# fb-hackercup-solutions
-Own solutions for the annual Facebook Hacker Cup competition. Visit
+# fb-hackercup-solutions / meta-hackercup-solutions
+Own solutions for the annual Facebook Hacker Cup (since 2022: Meta Hacker Cup) competition. Visit
 https://www.facebook.com/codingcompetitions/hacker-cup for more details.
 
 *NOTE:* The solutions are being pushed to this repository always after the end of the corresponding
@@ -7,6 +7,7 @@ competition round. This should prevent any cheating attempts. The goal is rather
 and exchange algorithmic ideas.
 
 ## List of participation certificates
+* 2022: Upcoming
 * 2021: https://www.facebook.com/codingcompetitions/hacker-cup/2021/certificate/1509381779222851
 * 2020: https://www.facebook.com/codingcompetitions/hacker-cup/2020/certificate/1509381779222851
 * 2019: https://www.facebook.com/codingcompetitions/hacker-cup/2019/certificate/1509381779222851
