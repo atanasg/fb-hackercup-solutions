@@ -7,7 +7,7 @@ competition round. This should prevent any cheating attempts. The goal is rather
 and exchange algorithmic ideas.
 
 ## List of participation certificates
-* 2022: Upcoming
+* 2022: https://www.facebook.com/codingcompetitions/hacker-cup/2022/certificate/1509381779222851
 * 2021: https://www.facebook.com/codingcompetitions/hacker-cup/2021/certificate/1509381779222851
 * 2020: https://www.facebook.com/codingcompetitions/hacker-cup/2020/certificate/1509381779222851
 * 2019: https://www.facebook.com/codingcompetitions/hacker-cup/2019/certificate/1509381779222851
