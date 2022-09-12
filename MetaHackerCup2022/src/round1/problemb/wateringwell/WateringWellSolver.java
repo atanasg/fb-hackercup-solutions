@@ -58,7 +58,7 @@ public class WateringWellSolver {
 		System.setProperty("line.separator", defaultSystemSeparator);
 	}
 	
-	private static int calculateInconveniences(Pair[] trees, Pair[] wells, int caseNum) {
+	private static int calculateInconveniences(Pair[] trees, Pair[] wells) {
 		long sum = 0;
 		
 		long startOfMaps = System.currentTimeMillis();
@@ -135,7 +135,7 @@ public class WateringWellSolver {
 			System.out.println("Num trees: " + numTrees);
 			System.out.println("Num wells: " + numWells);
 			long currentTimeStartCalc = System.currentTimeMillis();
-			int inconveniencesSum = calculateInconveniences(trees, wells, i+1);
+			int inconveniencesSum = calculateInconveniences(trees, wells);
 			long currentTimeEndCalc = System.currentTimeMillis();
 			System.out.println((currentTimeEndCalc-currentTimeStartCalc) + "ms. Calculation done, moving to next case...");
 			System.out.println("---");
