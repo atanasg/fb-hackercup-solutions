@@ -17,20 +17,7 @@ import java.util.Map.Entry;
  * @author atanasg
  */
 
-class Pair {
-	int x;
-	int y;
-	
-	public Pair(int x, int y) {
-		this.x = x;
-		this.y = y;
-	}
-	
-	@Override
-	public String toString() {
-		return "Pair [x=" + x + ", y=" + y + "]";
-	}
-}
+record Pair(int x, int y) {}
 
 public class WateringWellSolver {
 	
@@ -66,8 +53,8 @@ public class WateringWellSolver {
 		Map<Integer, Integer> numTreesAtSpecificY = new HashMap<>();
 		
 		for(Pair t : trees) {
-			numTreesAtSpecificX.merge(t.x, 1, Integer::sum);
-			numTreesAtSpecificY.merge(t.y, 1, Integer::sum);
+			numTreesAtSpecificX.merge(t.x(), 1, Integer::sum);
+			numTreesAtSpecificY.merge(t.y(), 1, Integer::sum);
 		}
 		long endOfmaps = System.currentTimeMillis();
 		System.out.println("Maps created: " + (endOfmaps - startOfMaps) + "ms.");
@@ -80,7 +67,7 @@ public class WateringWellSolver {
 			for(Entry<Integer, Integer> e : numTreesAtSpecificX.entrySet()) {
 				int xValue = e.getKey();
 				int numOccurences = e.getValue();
-				int diffX = Math.abs(xValue - w.x);
+				int diffX = Math.abs(xValue - w.x());
 				long quadDiffX = 1L * diffX * diffX;
 				long modquadDiffX = quadDiffX % MODULO_CONSTANT;
 				long currentSum = (numOccurences * modquadDiffX) % MODULO_CONSTANT;
@@ -90,7 +77,7 @@ public class WateringWellSolver {
 			for(Entry<Integer, Integer> e : numTreesAtSpecificY.entrySet()) {
 				int yValue = e.getKey();
 				int numOccurences = e.getValue();
-				int diffY = Math.abs(yValue - w.y);
+				int diffY = Math.abs(yValue - w.y());
 				long quadDiffY = 1L * diffY * diffY;
 				long modquadDiffY = quadDiffY % MODULO_CONSTANT;
 				long currentSum = (numOccurences * modquadDiffY) % MODULO_CONSTANT;
