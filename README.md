@@ -6,6 +6,8 @@ https://www.facebook.com/codingcompetitions/hacker-cup for more details.
 competition round. This should prevent any cheating attempts. The goal is rather to share knowledge
 and exchange algorithmic ideas.
 
+:construction_worker: Solutions before 2018 are still missing from this repo.
+
 ## List of participation certificates
 * 2024: https://www.facebook.com/codingcompetitions/hacker-cup/2024/certificate/1509381779222851
 * 2023: https://www.facebook.com/codingcompetitions/hacker-cup/2023/certificate/1509381779222851
