@@ -9,6 +9,7 @@ and exchange algorithmic ideas.
 :construction_worker: Solutions before 2018 are still missing from this repo.
 
 ## List of participation certificates
+* 2025: https://www.facebook.com/codingcompetitions/hacker-cup/2025/certificate/1509381779222851
 * 2024: https://www.facebook.com/codingcompetitions/hacker-cup/2024/certificate/1509381779222851
 * 2023: https://www.facebook.com/codingcompetitions/hacker-cup/2023/certificate/1509381779222851
 * 2022: https://www.facebook.com/codingcompetitions/hacker-cup/2022/certificate/1509381779222851
